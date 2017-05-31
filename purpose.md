@@ -1,0 +1,1 @@
+Theme: The theme we have chosen is called, On the Table. Its inspired by modern cooking websites. We will incorporate in the that feel by keeping our Zen garden modern and clean. Possibly with repetition of circles throughout the design. 
