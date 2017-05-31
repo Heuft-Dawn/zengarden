@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Lato');
+@import 'partials/colors'; //colors
 @import 'partials/prefix-mixins';
 @import 'partials/layout'; // responsive grid and media queries
-@import 'partials/colors'; //colors
 @import 'partials/typography'; //typography
 @import 'partials/navigation'; //navigation
-
+@import 'partials/preamble'; //preamble
 // fonts
 
 $primary-font: 'Lato', sans-serif;
