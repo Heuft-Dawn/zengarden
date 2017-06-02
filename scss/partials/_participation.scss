@@ -1,18 +1,18 @@
 /* -------------------------------- 
 
-xPreamble
+xParticipation
 
 -------------------------------- */
 
-.preamble{
+.participation{
  border-radius: 10%;
-  height:33vw;
+  height:45vw;
   width:66vw;
   display:flex;
   flex-flow:row wrap;
   justify-content:center;
   border: 2px solid black;
   text-align: left;
-  background-image: url("redflanel.jpg");
-  z-index: 1;
-  }
+  background-image: url ("redflanel.jpg");
+  z-index: 4;
+}
