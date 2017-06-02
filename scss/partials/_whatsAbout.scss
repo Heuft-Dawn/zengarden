@@ -3,7 +3,7 @@
 xWhats this about
 
 -------------------------------- */
-
+@media only screen and (min-width: 768px) {
 .explanation{
  border-radius: 10%;
   height:33vw;
@@ -13,6 +13,9 @@ xWhats this about
   justify-content:center;
   border: 2px solid black;
   text-align: left;
-  background-image: url ("redflanel.jpg");
+  background-image: url ("redflanel.svg");
   z-index: 2;
+}
+}
+@media only screen and (min-width: 1024px) {
 }

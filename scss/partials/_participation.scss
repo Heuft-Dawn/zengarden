@@ -3,7 +3,7 @@
 xParticipation
 
 -------------------------------- */
-
+@media only screen and (min-width: 768px) {
 .participation{
  border-radius: 10%;
   height:45vw;
@@ -13,6 +13,9 @@ xParticipation
   justify-content:center;
   border: 2px solid black;
   text-align: left;
-  background-image: url ("redflanel.jpg");
+  background-image: url ("redflanel.svg");
   z-index: 4;
+}
+}
+@media only screen and (min-width: 1024px) {
 }
