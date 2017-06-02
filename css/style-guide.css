@@ -105,6 +105,57 @@ header {
 
 /* -------------------------------- 
 
+xPreamble
+
+-------------------------------- */
+.preamble {
+  border-radius: 10%;
+  height: 25vw;
+  width: 25vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url "redflanel.jpg";
+  z-index: 1; }
+
+/* -------------------------------- 
+
+xWhats this about
+
+-------------------------------- */
+.explanation {
+  border-radius: 10%;
+  height: 25vw;
+  width: 25vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url "redflanel.jpg";
+  z-index: 2; }
+
+/* -------------------------------- 
+
+xParticipation
+
+-------------------------------- */
+.participation {
+  border-radius: 10%;
+  height: 25vw;
+  width: 25vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url "redflanel.jpg";
+  z-index: 4; }
+
+/* -------------------------------- 
+
 xBackground 
 
 -------------------------------- */
