@@ -3,10 +3,10 @@
 xWhats this about
 
 -------------------------------- */
-@media only screen and (min-width: 768px) {
+@include MQ(S) {
 .explanation{
  border-radius: 10%;
-  height:33vw;
+  height:45vw;
   width:66vw;
   display:flex;
   flex-flow:row wrap;
@@ -15,7 +15,36 @@ xWhats this about
   text-align: left;
   background-image: url ("redflanel.svg");
   z-index: 2;
+  align-items:center;
 }
 }
-@media only screen and (min-width: 1024px) {
+@include MQ(M) {
+.explanation{
+ border-radius: 10%;
+  height:33vw;
+  width:66vw;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:end;
+  border: 2px solid black;
+  text-align: left;
+  background-image: url ("redflanel.svg");
+  z-index: 2;
+  align-items:end;
+}
+}
+@include MQ(L) {
+.explanation{
+ border-radius: 10%;
+  height:33vw;
+  width:66vw;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:end;
+  border: 2px solid black;
+  text-align: left;
+  background-image: url ("redflanel.svg");
+  z-index: 2;
+  align-items:end;
+}
 }
