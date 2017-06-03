@@ -13,10 +13,10 @@ h1 {
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 500px) {
     h1 {
       font-size: 3.2rem; } }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
     h1 {
       font-size: 4rem; } }
 
@@ -24,7 +24,7 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 500px) {
     h2 {
       font-size: 1.8rem;
       margin: 1em 0 1.4em; } }
@@ -40,7 +40,7 @@ p {
   p a {
     color: #945D60;
     text-decoration: underline; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 500px) {
     p {
       font-size: 1.6rem;
       line-height: 1.6; } }
@@ -57,7 +57,7 @@ header {
   /* logo box style */
   background-color: #945D60;
   width: 120px; }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
     .cd-logo {
       width: 180px; } }
 
@@ -67,7 +67,7 @@ header {
   .cd-main-nav li a {
     color: #ffffff;
     border-color: #6e7c6c; }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
     .cd-main-nav li a {
       color: #cbd0ca; }
       .cd-main-nav li a.selected {
@@ -108,53 +108,131 @@ header {
 xPreamble
 
 -------------------------------- */
-.preamble {
-  border-radius: 10%;
-  height: auto;
-  width: 66vw;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  border: 2px solid black;
-  text-align: left;
-  background-image: url("redflanel.jpg");
-  z-index: 1; }
-
+@media only screen and (min-width: 500px) {
+  .preamble {
+    border-radius: 10%;
+    height: 45vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url("redflanel.svg");
+    z-index: 1;
+    align-items: center; } }
+@media only screen and (min-width: 900px) {
+  .preamble {
+    border-radius: 10%;
+    height: 33vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url("redflanel.svg");
+    z-index: 1;
+    align-items: end; } }
+@media only screen and (min-width: 1200px) {
+  .preamble {
+    border-radius: 10%;
+    height: 33vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url("redflanel.svg");
+    z-index: 1;
+    align-items: end; } }
 /* -------------------------------- 
 
 xWhats this about
 
 -------------------------------- */
-.explanation {
-  border-radius: 10%;
-  height: 33vw;
-  width: 66vw;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  border: 2px solid black;
-  text-align: left;
-  background-image: url "redflanel.jpg";
-  z-index: 2; }
-
+@media only screen and (min-width: 500px) {
+  .explanation {
+    border-radius: 10%;
+    height: 45vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url "redflanel.svg";
+    z-index: 2;
+    align-items: center; } }
+@media only screen and (min-width: 900px) {
+  .explanation {
+    border-radius: 10%;
+    height: 33vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url "redflanel.svg";
+    z-index: 2;
+    align-items: end; } }
+@media only screen and (min-width: 1200px) {
+  .explanation {
+    border-radius: 10%;
+    height: 33vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url "redflanel.svg";
+    z-index: 2;
+    align-items: end; } }
 /* -------------------------------- 
 
 xParticipation
 
 -------------------------------- */
-.participation {
-  border-radius: 10%;
-  height: 45vw;
-  width: 66vw;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  border: 2px solid black;
-  text-align: left;
-  background-image: url "redflanel.jpg";
-  z-index: 4; }
-
-@media only screen and (min-width: 768px) {
+@iclude MQ(S) {
+  .participation {
+    border-radius: 10%;
+    height: 45vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url "redflanel.svg";
+    z-index: 4; } }
+@media only screen and (min-width: 900px) {
+  .participation {
+    border-radius: 10%;
+    height: 45vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url "redflanel.svg";
+    z-index: 4; } }
+@media only screen and (min-width: 1200px) {
+  .participation {
+    border-radius: 10%;
+    height: 45vw;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url "redflanel.svg";
+    z-index: 4; } }
+@media only screen and (min-width: 500px) {
   .sidebar {
     height: auto;
     width: 66vw;
@@ -163,7 +241,7 @@ xParticipation
     color: #ffffff;
     z-index: 8;
     background-color: black; } }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1200px) {
   .sidebar {
     height: auto;
     width: 25vw;
@@ -172,7 +250,7 @@ xParticipation
     color: #ffffff;
     z-index: 8;
     background-color: black; } }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 900px) {
   .sidebar {
     height: auto;
     width: 66vw;
@@ -181,6 +259,42 @@ xParticipation
     color: #ffffff;
     z-index: 8;
     background-color: black; } }
+
+.requirements {
+  background-image: url(assets/dinner-plate.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
+  .requirements h3 {
+    text-align: center; }
+
+header {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  border-bottom: solid 3px #3C3C3C; }
+
+.summary p:first-child {
+  position: relative;
+  text-align: justify; }
+  @media only screen and (min-width: 500px) {
+    .summary p:first-child {
+      margin-left: 120px;
+      margin-right: 120px; } }
+  @media only screen and (min-width: 1200px) {
+    .summary p:first-child:before {
+      content: '(';
+      position: absolute;
+      top: 0;
+      left: -35px;
+      font-size: 75px;
+      line-height: 1; }
+    .summary p:first-child:after {
+      content: ')';
+      position: absolute;
+      top: 0;
+      right: -35px;
+      font-size: 75px;
+      line-height: 1; } }
 
 /* -------------------------------- 
 
@@ -211,7 +325,7 @@ xPage title
 -------------------------------- */
 main > h1 {
   color: #626E60; }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1200px) {
     main > h1 {
       /* title goes into the header on big devices */
       color: #ffffff; } }
@@ -250,7 +364,7 @@ xButtons
     .no-touch .btn.btn-outline:hover {
       color: #ffffff;
       background: #945D60; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 500px) {
     .btn {
       font-size: 1.6rem; } }
 
@@ -420,7 +534,7 @@ header {
   z-index: 10; }
   header nav {
     display: inline-block; }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
     header {
       height: 80px; }
       header::after {
@@ -442,7 +556,7 @@ header {
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1200px) {
     .cd-logo {
       margin-left: 5%; } }
 
@@ -496,7 +610,7 @@ header {
       -ms-transform: translateY(6px);
       -o-transform: translateY(6px);
       transform: translateY(6px); }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
     .cd-nav-trigger {
       display: none; } }
 
@@ -524,7 +638,7 @@ header {
     border-style: solid; }
   .cd-main-nav li:first-of-type a {
     border-top-width: 1px; }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
     .cd-main-nav {
       position: static;
       display: table;
@@ -552,7 +666,7 @@ header {
         transition: all 0.2s; }
       .cd-main-nav li:first-of-type a {
         border-top: none; } }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1200px) {
     .cd-main-nav {
       display: none; } }
 
@@ -622,28 +736,28 @@ header {
     -webkit-transition: opacity .2s 0s, visibility 0s 0s;
     -moz-transition: opacity .2s 0s, visibility 0s 0s;
     transition: opacity .2s 0s, visibility 0s 0s; }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
     .cd-download {
       display: block; }
       .cd-download span {
         opacity: 0;
         visibility: hidden; } }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1200px) {
     .cd-download {
       right: 5%; } }
 
 main {
   width: 90%;
-  max-width: 1024px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 50px 0; }
   main > h1 {
     text-align: center;
     margin: 3em 0; }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 900px) {
     main {
       padding-top: 80px; } }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1200px) {
     main {
       max-width: none;
       padding: 120px 0 50px; }
@@ -684,10 +798,10 @@ section {
     content: '9. '; }
   section:nth-of-type(10) h2::before {
     content: '10. '; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 500px) {
     section {
       margin: 3em 0 5em; } }
-  @media only screen and (min-width: 1600px) {
+  @media only screen and (min-width: 1200px) {
     section {
       width: 48%;
       float: left;
@@ -722,7 +836,7 @@ section {
     width: 16px;
     height: 16px;
     border-radius: .2em; }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .cd-branding .cd-box {
     width: 49%;
     float: left;
@@ -790,7 +904,7 @@ section {
     background: white; }
   .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
     background: #f2f2f2; }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 500px) {
   .cd-colors li {
     width: 19%;
     float: left;
@@ -805,7 +919,7 @@ section {
 .cd-icons .cd-box,
 .cd-form .cd-box {
   padding: 1em; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 500px) {
     .cd-typography .cd-box .cd-box,
     .cd-buttons .cd-box .cd-box,
     .cd-icons .cd-box .cd-box,
@@ -826,7 +940,7 @@ section {
   border-top-right-radius: 0; }
 .cd-buttons button {
   margin: .4em; }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 900px) {
   .cd-buttons button {
     margin: 1em; } }
 
