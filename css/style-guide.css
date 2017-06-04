@@ -13,10 +13,10 @@ h1 {
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 280px) {
     h1 {
       font-size: 3.2rem; } }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 768px) {
     h1 {
       font-size: 4rem; } }
 
@@ -24,7 +24,7 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 280px) {
     h2 {
       font-size: 1.8rem;
       margin: 1em 0 1.4em; } }
@@ -40,7 +40,7 @@ p {
   p a {
     color: #945D60;
     text-decoration: underline; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 280px) {
     p {
       font-size: 1.6rem;
       line-height: 1.6; } }
@@ -57,7 +57,7 @@ header {
   /* logo box style */
   background-color: #945D60;
   width: 120px; }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 768px) {
     .cd-logo {
       width: 180px; } }
 
@@ -67,7 +67,7 @@ header {
   .cd-main-nav li a {
     color: #ffffff;
     border-color: #6e7c6c; }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 768px) {
     .cd-main-nav li a {
       color: #cbd0ca; }
       .cd-main-nav li a.selected {
@@ -108,10 +108,10 @@ header {
 xPreamble
 
 -------------------------------- */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 280px) {
   .preamble {
     border-radius: 10%;
-    height: 45vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -119,12 +119,12 @@ xPreamble
     border: 2px solid black;
     text-align: left;
     background-image: url("redflanel.svg");
-    z-index: 1;
-    align-items: center; } }
-@media only screen and (min-width: 900px) {
+    align-items: center;
+    padding: 10px; } }
+@media only screen and (min-width: 768px) {
   .preamble {
     border-radius: 10%;
-    height: 33vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -132,12 +132,12 @@ xPreamble
     border: 2px solid black;
     text-align: left;
     background-image: url("redflanel.svg");
-    z-index: 1;
-    align-items: end; } }
-@media only screen and (min-width: 1200px) {
+    align-items: end;
+    padding: 10px; } }
+@media only screen and (min-width: 1024px) {
   .preamble {
     border-radius: 10%;
-    height: 33vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -145,17 +145,17 @@ xPreamble
     border: 2px solid black;
     text-align: left;
     background-image: url("redflanel.svg");
-    z-index: 1;
-    align-items: end; } }
+    align-items: end;
+    padding: 10px; } }
 /* -------------------------------- 
 
 xWhats this about
 
 -------------------------------- */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 280px) {
   .explanation {
     border-radius: 10%;
-    height: 45vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -163,12 +163,12 @@ xWhats this about
     border: 2px solid black;
     text-align: left;
     background-image: url "redflanel.svg";
-    z-index: 2;
-    align-items: center; } }
-@media only screen and (min-width: 900px) {
+    align-items: center;
+    padding: 10px; } }
+@media only screen and (min-width: 768px) {
   .explanation {
     border-radius: 10%;
-    height: 33vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -176,12 +176,12 @@ xWhats this about
     border: 2px solid black;
     text-align: left;
     background-image: url "redflanel.svg";
-    z-index: 2;
-    align-items: end; } }
-@media only screen and (min-width: 1200px) {
+    align-items: end;
+    padding: 10px; } }
+@media only screen and (min-width: 1024px) {
   .explanation {
     border-radius: 10%;
-    height: 33vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -189,8 +189,8 @@ xWhats this about
     border: 2px solid black;
     text-align: left;
     background-image: url "redflanel.svg";
-    z-index: 2;
-    align-items: end; } }
+    align-items: end;
+    padding: 10px; } }
 /* -------------------------------- 
 
 xParticipation
@@ -199,7 +199,7 @@ xParticipation
 @iclude MQ(S) {
   .participation {
     border-radius: 10%;
-    height: 45vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -207,11 +207,11 @@ xParticipation
     border: 2px solid black;
     text-align: left;
     background-image: url "redflanel.svg";
-    z-index: 4; } }
-@media only screen and (min-width: 900px) {
+    padding: 10px; } }
+@media only screen and (min-width: 768px) {
   .participation {
     border-radius: 10%;
-    height: 45vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -219,11 +219,11 @@ xParticipation
     border: 2px solid black;
     text-align: left;
     background-image: url "redflanel.svg";
-    z-index: 4; } }
-@media only screen and (min-width: 1200px) {
+    padding: 10px; } }
+@media only screen and (min-width: 1024px) {
   .participation {
     border-radius: 10%;
-    height: 45vw;
+    height: auto;
     width: 66vw;
     display: flex;
     flex-flow: row wrap;
@@ -231,8 +231,8 @@ xParticipation
     border: 2px solid black;
     text-align: left;
     background-image: url "redflanel.svg";
-    z-index: 4; } }
-@media only screen and (min-width: 500px) {
+    padding: 10px; } }
+@media only screen and (min-width: 280px) {
   .sidebar {
     height: auto;
     width: 66vw;
@@ -241,7 +241,7 @@ xParticipation
     color: #ffffff;
     z-index: 8;
     background-color: black; } }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .sidebar {
     height: auto;
     width: 25vw;
@@ -250,7 +250,7 @@ xParticipation
     color: #ffffff;
     z-index: 8;
     background-color: black; } }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   .sidebar {
     height: auto;
     width: 66vw;
@@ -276,11 +276,11 @@ header {
 .summary p:first-child {
   position: relative;
   text-align: justify; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 280px) {
     .summary p:first-child {
       margin-left: 120px;
       margin-right: 120px; } }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1024px) {
     .summary p:first-child:before {
       content: '(';
       position: absolute;
@@ -325,7 +325,7 @@ xPage title
 -------------------------------- */
 main > h1 {
   color: #626E60; }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1024px) {
     main > h1 {
       /* title goes into the header on big devices */
       color: #ffffff; } }
@@ -364,7 +364,7 @@ xButtons
     .no-touch .btn.btn-outline:hover {
       color: #ffffff;
       background: #945D60; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 280px) {
     .btn {
       font-size: 1.6rem; } }
 
@@ -534,7 +534,7 @@ header {
   z-index: 10; }
   header nav {
     display: inline-block; }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 768px) {
     header {
       height: 80px; }
       header::after {
@@ -556,7 +556,7 @@ header {
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1024px) {
     .cd-logo {
       margin-left: 5%; } }
 
@@ -610,7 +610,7 @@ header {
       -ms-transform: translateY(6px);
       -o-transform: translateY(6px);
       transform: translateY(6px); }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 768px) {
     .cd-nav-trigger {
       display: none; } }
 
@@ -638,7 +638,7 @@ header {
     border-style: solid; }
   .cd-main-nav li:first-of-type a {
     border-top-width: 1px; }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 768px) {
     .cd-main-nav {
       position: static;
       display: table;
@@ -666,7 +666,7 @@ header {
         transition: all 0.2s; }
       .cd-main-nav li:first-of-type a {
         border-top: none; } }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1024px) {
     .cd-main-nav {
       display: none; } }
 
@@ -736,28 +736,28 @@ header {
     -webkit-transition: opacity .2s 0s, visibility 0s 0s;
     -moz-transition: opacity .2s 0s, visibility 0s 0s;
     transition: opacity .2s 0s, visibility 0s 0s; }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 768px) {
     .cd-download {
       display: block; }
       .cd-download span {
         opacity: 0;
         visibility: hidden; } }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1024px) {
     .cd-download {
       right: 5%; } }
 
 main {
   width: 90%;
-  max-width: 900px;
+  max-width: 768px;
   margin: 0 auto;
   padding: 50px 0; }
   main > h1 {
     text-align: center;
     margin: 3em 0; }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 768px) {
     main {
       padding-top: 80px; } }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1024px) {
     main {
       max-width: none;
       padding: 120px 0 50px; }
@@ -798,10 +798,10 @@ section {
     content: '9. '; }
   section:nth-of-type(10) h2::before {
     content: '10. '; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 280px) {
     section {
       margin: 3em 0 5em; } }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1024px) {
     section {
       width: 48%;
       float: left;
@@ -836,7 +836,7 @@ section {
     width: 16px;
     height: 16px;
     border-radius: .2em; }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 280px) {
   .cd-branding .cd-box {
     width: 49%;
     float: left;
@@ -904,7 +904,7 @@ section {
     background: white; }
   .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
     background: #f2f2f2; }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 280px) {
   .cd-colors li {
     width: 19%;
     float: left;
@@ -919,7 +919,7 @@ section {
 .cd-icons .cd-box,
 .cd-form .cd-box {
   padding: 1em; }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 280px) {
     .cd-typography .cd-box .cd-box,
     .cd-buttons .cd-box .cd-box,
     .cd-icons .cd-box .cd-box,
@@ -940,7 +940,7 @@ section {
   border-top-right-radius: 0; }
 .cd-buttons button {
   margin: .4em; }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 768px) {
   .cd-buttons button {
     margin: 1em; } }
 
