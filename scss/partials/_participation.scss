@@ -20,7 +20,7 @@ xParticipation
 @include MQ(M) {
 .participation{
  border-radius: 10%;
-  height:45vw;
+  height:auto;
   width:66vw;
   display:flex;
   flex-flow:row wrap;
@@ -34,7 +34,7 @@ xParticipation
 @include MQ(L) {
 .participation{
  border-radius: 10%;
-  height:45vw;
+  height:auto;
   width:66vw;
   display:flex;
   flex-flow:row wrap;
