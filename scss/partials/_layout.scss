@@ -25,3 +25,15 @@ $L:     1024px;
   float: $float-direction;
 }
 
+.page-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.intro {
+  flex: 0 0 100%;
+}
+
+.main {
+  flex: 0 0 75%;
+}

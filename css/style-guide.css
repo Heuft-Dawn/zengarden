@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya|Lato");
+.page-wrapper {
+  display: flex;
+  flex-flow: row wrap; }
+
+.intro {
+  flex: 0 0 100%; }
+
+.main {
+  flex: 0 0 75%; }
+
 /* -------------------------------- 
 
 xTypography 
@@ -54,7 +64,6 @@ xPreamble
   .preamble {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -67,7 +76,6 @@ xPreamble
   .preamble {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
@@ -80,7 +88,6 @@ xPreamble
   .preamble {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
@@ -98,7 +105,6 @@ xWhats this about
   .explanation {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -111,7 +117,6 @@ xWhats this about
   .explanation {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
@@ -124,7 +129,6 @@ xWhats this about
   .explanation {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
@@ -142,7 +146,6 @@ xBenefits
   .benefits {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -164,7 +167,6 @@ xParticipation
   .participation {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -176,7 +178,6 @@ xParticipation
   .participation {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
@@ -188,7 +189,6 @@ xParticipation
   .participation {
     border-radius: 10%;
     height: auto;
-    width: 66vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
@@ -199,25 +199,24 @@ xParticipation
 @media only screen and (min-width: 280px) {
   .sidebar {
     height: auto;
-    width: 66vw;
     display: flex;
     justify-content: center;
     color: #ffffff;
     z-index: 8;
-    background-color: black; } }
+    background-color: black;
+    flex: 0 0 100%; } }
 @media only screen and (min-width: 1024px) {
   .sidebar {
     height: auto;
-    width: 25vw;
     display: flex;
     justify-content: center;
     color: #ffffff;
     z-index: 8;
-    background-color: black; } }
+    background-color: black;
+    flex: 0 0 25%; } }
 @media only screen and (min-width: 768px) {
   .sidebar {
     height: auto;
-    width: 66vw;
     display: flex;
     justify-content: center;
     color: #ffffff;

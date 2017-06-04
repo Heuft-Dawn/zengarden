@@ -2,25 +2,24 @@
 .sidebar{
     @include MQ(S){
     height: auto;
-    width: 66vw;
     display: flex;
     justify-content: center;
     color: $white;
     z-index: 8;
     background-color: black;
+    flex: 0 0 100%;
     }
     @include MQ(L){
     height: auto;
-    width: 25vw;
     display: flex;
     justify-content: center;
     color: $white;
     z-index: 8;
     background-color: black;
+    flex: 0 0 25%;
     }
     @include MQ(M){
     height: auto;
-    width: 66vw;
     display: flex;
     justify-content: center;
     color: $white;
