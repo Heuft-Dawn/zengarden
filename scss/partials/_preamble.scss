@@ -6,7 +6,7 @@ xPreamble
 @include MQ(S) {
 .preamble{
  border-radius: 10%;
-  height:45vw;
+  height:auto;
   width:66vw;
   display:flex;
   flex-flow:row wrap;
@@ -14,14 +14,14 @@ xPreamble
   border: 2px solid black;
   text-align: left;
   background-image: url("redflanel.svg");
-  z-index: 1;
   align-items:center;
+  padding:10px;
   }
  }
 @include MQ(M) {
 .preamble{
  border-radius: 10%;
-  height:33vw;
+  height:auto;
   width:66vw;
   display:flex;
   flex-flow:row wrap;
@@ -29,14 +29,14 @@ xPreamble
   border: 2px solid black;
   text-align: left;
   background-image: url("redflanel.svg");
-  z-index: 1;
   align-items:end;
+  padding:10px;
   }
 }
 @include MQ(L) {
 .preamble{
  border-radius: 10%;
-  height:33vw;
+  height:auto;
   width:66vw;
   display:flex;
   flex-flow:row wrap;
@@ -44,7 +44,7 @@ xPreamble
   border: 2px solid black;
   text-align: left;
   background-image: url("redflanel.svg");
-  z-index: 1;
   align-items:end;
+  padding:10px;
   }
 }

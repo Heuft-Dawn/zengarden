@@ -3,10 +3,10 @@
 xParticipation
 
 -------------------------------- */
-@media only screen and (min-width: 768px) {
+@iclude MQ(S) {
 .participation{
  border-radius: 10%;
-  height:45vw;
+  height:auto;
   width:66vw;
   display:flex;
   flex-flow:row wrap;
@@ -14,8 +14,34 @@ xParticipation
   border: 2px solid black;
   text-align: left;
   background-image: url ("redflanel.svg");
-  z-index: 4;
+  padding:10px;
 }
 }
-@media only screen and (min-width: 1024px) {
+@include MQ(M) {
+.participation{
+ border-radius: 10%;
+  height:45vw;
+  width:66vw;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:start;
+  border: 2px solid black;
+  text-align: left;
+  background-image: url ("redflanel.svg");
+  padding:10px;
+}
+}
+@include MQ(L) {
+.participation{
+ border-radius: 10%;
+  height:45vw;
+  width:66vw;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:start;
+  border: 2px solid black;
+  text-align: left;
+  background-image: url ("redflanel.svg");
+  padding:10px;
+}
 }
