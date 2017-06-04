@@ -1,0 +1,27 @@
+/* --------------------------------
+
+xBenefits
+
+-------------------------------- */
+@include MQ(S) {
+  .benefits {
+    border-radius: 10%;
+    height: auto;
+    width: 66vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url ("redflanel.svg");
+    align-items: center;
+    padding: 10px;
+  }
+}
+
+@include MQ(M) {
+  .benefits {
+    justify-content: end;
+    align-items: end;
+  }
+}
