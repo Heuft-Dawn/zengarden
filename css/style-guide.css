@@ -69,7 +69,7 @@ xPreamble
     justify-content: center;
     border: 2px solid black;
     text-align: left;
-    background-image: url("redflanel.svg");
+    background-image: url("assets/redflanel.svg");
     align-items: center;
     padding: 10px; } }
 @media only screen and (min-width: 768px) {
@@ -81,9 +81,10 @@ xPreamble
     justify-content: start;
     border: 2px solid black;
     text-align: left;
-    background-image: url("redflanel.svg");
+    background-image: url("assets/redflanel.svg");
     align-items: end;
-    padding: 10px; } }
+    padding: 10px;
+    width: 75%; } }
 @media only screen and (min-width: 1024px) {
   .preamble {
     border-radius: 10%;
@@ -93,9 +94,10 @@ xPreamble
     justify-content: start;
     border: 2px solid black;
     text-align: left;
-    background-image: url("redflanel.svg");
+    background-image: url("assets/redflanel.svg");
     align-items: end;
-    padding: 10px; } }
+    padding: 10px;
+    width: 75%; } }
 /* -------------------------------- 
 
 xWhats this about
@@ -209,7 +211,10 @@ xParticipation
     display: flex;
     justify-content: center;
     color: rgba(238, 238, 238, 0.7);
-    flex: 0 0 25%; } }
+    flex: 0 0 25%;
+    position: fixed;
+    top: 400px;
+    right: 0; } }
 
 .wrapper {
   position: relative;
@@ -284,6 +289,6 @@ body {
   width: 1200px;
   margin: auto;
   /* this is the page background */
-  background-color: #ffffff; }
+  background-color: #FFF7E8; }
 
 /*# sourceMappingURL=style-guide.css.map */
