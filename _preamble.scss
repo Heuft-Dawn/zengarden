@@ -1,0 +1,50 @@
+/* -------------------------------- 
+
+xPreamble
+
+-------------------------------- */
+
+@include MQ(S) {
+.preamble{
+ border-radius: 10%;
+  height:auto;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  border: 2px solid black;
+  text-align: left;
+  background-image: url(../assets/redflanel.svg);
+  align-items:center;
+  padding:10px;
+  }
+ }
+@include MQ(M) {
+.preamble{
+ border-radius: 10%;
+  height:auto;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:start;
+  border: 2px solid black;
+  text-align: left;
+  background-image: url(../assets/redflanel.svg);
+  align-items:end;
+  padding:10px;
+  width: 75%
+  }
+}
+@include MQ(L) {
+.preamble{
+ border-radius: 10%;
+  height:auto;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:start;
+  border: 2px solid black;
+  text-align: left;
+  background-image: url(../assets/redflanel.svg);
+  align-items:end;
+  padding:10px;
+  width: 75%;
+  }
+}
