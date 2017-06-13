@@ -7,7 +7,10 @@
   flex: 0 0 100%; }
 
 .main {
-  flex: 0 0 75%; }
+  flex: 0 0 100%; }
+  @media only screen and (min-width: 768px) {
+    .main {
+      flex: 0 0 75%; } }
 
 /* -------------------------------- 
 
@@ -153,7 +156,7 @@ xBenefits
     justify-content: center;
     border: 2px solid black;
     text-align: left;
-    background-image: url "redflanel.svg";
+    background-image: url(../assets/redflanel.svg);
     align-items: center;
     padding: 10px; } }
 @media only screen and (min-width: 768px) {
@@ -254,12 +257,16 @@ header {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  border-bottom: solid 3px #3C3C3C; }
+  border-bottom: solid 3px #3C3C3C;
+  background: url(../assets/header.jpg) no-repeat;
+  background-size: cover; }
+  header * {
+    color: #ffffff; }
 
 .summary p:first-child {
   position: relative;
   text-align: justify; }
-  @media only screen and (min-width: 280px) {
+  @media only screen and (min-width: 768px) {
     .summary p:first-child {
       margin-left: 120px;
       margin-right: 120px; } }

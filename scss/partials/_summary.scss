@@ -3,7 +3,7 @@
     position: relative;
     text-align: justify;
 
-    @include MQ(S) {
+    @include MQ(M) {
       margin-left: 120px;
       margin-right: 120px;
     }
