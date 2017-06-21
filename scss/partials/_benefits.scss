@@ -5,14 +5,14 @@ xBenefits
 -------------------------------- */
 @include MQ(S) {
   .benefits {
-    border-radius: 10%;
+   border-radius: 10%;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     border: 2px solid black;
     text-align: left;
-    background-image: url(../assets/redflanel.svg);
+   background-image: url(../assets/redflanel.svg);
     align-items: center;
     padding: 10px;
   }
@@ -20,7 +20,33 @@ xBenefits
 
 @include MQ(M) {
   .benefits {
+    border-radius: 10%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: end;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url(../assets/redflanel.svg);
     align-items: end;
+    padding: 10px;
+	width: 45%;
+	margin-left:55%;
+  }
+}
+@include MQ(L) {
+  .benefits {
+    border-radius: 10%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url(../assets/redflanel.svg);
+    align-items: end;
+    padding: 10px;
+	width: 45%;
+	margin-left:55%;
   }
 }

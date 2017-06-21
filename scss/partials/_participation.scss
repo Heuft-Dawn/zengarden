@@ -6,39 +6,43 @@ xParticipation
 @iclude MQ(S) {
 .participation{
  border-radius: 10%;
-  height:auto;
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:center;
-  border: 2px solid black;
-  text-align: left;
-  background-image: url ("redflanel.svg");
-  padding:10px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 2px solid black;
+    text-align: left;
+   background-image: url(../assets/redflanel.svg);
+    padding: 10px;
 }
 }
 @include MQ(M) {
 .participation{
  border-radius: 10%;
-  height:auto;
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:start;
-  border: 2px solid black;
-  text-align: left;
-  background-image: url ("redflanel.svg");
-  padding:10px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    border: 2px solid black;
+    text-align: left;
+   background-image: url(../assets/redflanel.svg);
+    padding: 10px;
+	width: 45%;
+	margin-right:55%;
 }
 }
 @include MQ(L) {
 .participation{
  border-radius: 10%;
-  height:auto;
-  display:flex;
-  flex-flow:row wrap;
-  justify-content:start;
-  border: 2px solid black;
-  text-align: left;
-  background-image: url ("redflanel.svg");
-  padding:10px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    border: 2px solid black;
+    text-align: left;
+   background-image: url(../assets/redflanel.svg);
+    padding: 10px;
+	width: 45%;
+	margin-right:55%;
 }
 }

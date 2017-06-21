@@ -1,4 +1,13 @@
 .requirements {
+border-radius: 10%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    border: 2px solid black;
+    padding: 10px; 
+	width: 75%;
+	margin:12.5%;
   background-image: url(../assets/dinner-plate.jpg);
   background-repeat: no-repeat;
   background-position: center;
