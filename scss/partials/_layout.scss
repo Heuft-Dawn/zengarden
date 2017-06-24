@@ -28,6 +28,7 @@ $L:     1024px;
 .page-wrapper {
   display: flex;
   flex-flow: row wrap;
+  background-image: url(../assets/redflanel.svg);
 }
 
 .intro {
@@ -35,9 +36,5 @@ $L:     1024px;
 }
 
 .main {
-  flex: 0 0 100%;
-
-  @include MQ(M) {
-    flex: 0 0 75%;
-  }
+  flex: 0 0 75%;
 }

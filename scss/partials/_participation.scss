@@ -6,14 +6,15 @@ xParticipation
 @iclude MQ(S) {
 .participation{
  border-radius: 10%;
-    height: auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    border: 2px solid black;
-    text-align: left;
-   background-image: url(../assets/redflanel.svg);
-    padding: 10px;
+  height:auto;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  border: 2px solid black;
+  text-align: left;
+  background:rgba(255, 247, 231, 0.6);
+  align-items:center;
+  padding:10px;
 }
 }
 @include MQ(M) {
@@ -25,7 +26,7 @@ xParticipation
     justify-content: start;
     border: 2px solid black;
     text-align: left;
-   background-image: url(../assets/redflanel.svg);
+   background:rgba(255, 247, 231, 0.6);
     padding: 10px;
 	width: 45%;
 	margin-right:55%;
@@ -40,7 +41,7 @@ xParticipation
     justify-content: start;
     border: 2px solid black;
     text-align: left;
-   background-image: url(../assets/redflanel.svg);
+   background:rgba(255, 247, 231, 0.6);
     padding: 10px;
 	width: 45%;
 	margin-right:55%;

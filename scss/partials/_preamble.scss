@@ -13,7 +13,7 @@ xPreamble
   justify-content:center;
   border: 2px solid black;
   text-align: left;
-  background-image: url(../assets/redflanel.svg);
+  background:rgba(255, 247, 231, 0.6);
   align-items:center;
   padding:10px;
   }
@@ -27,10 +27,11 @@ xPreamble
   justify-content:start;
   border: 2px solid black;
   text-align: left;
-  background-image: url(../assets/redflanel.svg);
+  background:rgba(255, 247, 231, 0.6);
   align-items:end;
   padding:10px;
-  width: 75%
+  width: 45%;
+	margin-right:55%;
   }
 }
 @include MQ(L) {
@@ -42,9 +43,10 @@ xPreamble
   justify-content:start;
   border: 2px solid black;
   text-align: left;
-  background-image: url(../assets/redflanel.svg);
+  background:rgba(255, 247, 231, 0.6);
   align-items:end;
   padding:10px;
-  width: 75%;
+  width: 45%;
+	margin-right:55%;
   }
 }
