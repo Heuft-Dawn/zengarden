@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Alegreya|Lato");
 .page-wrapper {
   display: flex;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  background-image: url(../assets/redflanel.svg); }
 
 .intro {
   flex: 0 0 100%; }
 
 .main {
-  flex: 0 0 100%; }
-  @media only screen and (min-width: 768px) {
-    .main {
-      flex: 0 0 75%; } }
+  flex: 0 0 75%; }
 
 /* -------------------------------- 
 
@@ -65,42 +63,50 @@ xPreamble
 -------------------------------- */
 @media only screen and (min-width: 280px) {
   .preamble {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     border: 2px solid black;
     text-align: left;
-    background-image: url(../assets/redflanel.svg);
+    background: rgba(255, 247, 231, 0.6);
     align-items: center;
-    padding: 10px; } }
+    padding: 10px; }
+    .preamble h3 {
+      width: 100%;
+      text-align: center; }
+      .preamble h3:hover {
+        transition: all 1s ease;
+        transform: scale(1.2); } }
 @media only screen and (min-width: 768px) {
   .preamble {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
     border: 2px solid black;
     text-align: left;
-    background-image: url(../assets/redflanel.svg);
+    background: rgba(255, 247, 231, 0.6);
     align-items: end;
     padding: 10px;
-    width: 75%; } }
+    width: 45%;
+    margin-right: 55%; } }
 @media only screen and (min-width: 1024px) {
   .preamble {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
     border: 2px solid black;
     text-align: left;
-    background-image: url(../assets/redflanel.svg);
+    background: rgba(255, 247, 231, 0.6);
     align-items: end;
     padding: 10px;
-    width: 75%; } }
+    width: 45%;
+    margin-right: 55%; } }
 /* -------------------------------- 
 
 xWhats this about
@@ -108,40 +114,50 @@ xWhats this about
 -------------------------------- */
 @media only screen and (min-width: 280px) {
   .explanation {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     border: 2px solid black;
     text-align: left;
-    background-image: url "redflanel.svg";
+    background: rgba(255, 247, 231, 0.6);
     align-items: center;
-    padding: 10px; } }
+    padding: 10px; }
+    .explanation h3 {
+      width: 100%;
+      text-align: center; }
+      .explanation h3:hover {
+        transition: all 1s ease;
+        transform: scale(1.2); } }
 @media only screen and (min-width: 768px) {
   .explanation {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
     border: 2px solid black;
     text-align: left;
-    background-image: url "redflanel.svg";
+    background: rgba(255, 247, 231, 0.6);
     align-items: end;
-    padding: 10px; } }
+    padding: 10px;
+    width: 45vw;
+    margin-left: 55%; } }
 @media only screen and (min-width: 1024px) {
   .explanation {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
     border: 2px solid black;
     text-align: left;
-    background-image: url "redflanel.svg";
+    background: rgba(255, 247, 231, 0.6);
     align-items: end;
-    padding: 10px; } }
+    padding: 10px;
+    width: 45%;
+    margin-left: 55%; } }
 /* --------------------------------
 
 xBenefits
@@ -149,7 +165,7 @@ xBenefits
 -------------------------------- */
 @media only screen and (min-width: 280px) {
   .benefits {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
@@ -158,49 +174,90 @@ xBenefits
     text-align: left;
     background-image: url(../assets/redflanel.svg);
     align-items: center;
-    padding: 10px; } }
+    padding: 10px; }
+    .benefits h3 {
+      width: 100%;
+      text-align: center; }
+      .benefits h3:hover {
+        transition: all 1s ease;
+        transform: scale(1.2); } }
 @media only screen and (min-width: 768px) {
   .benefits {
+    border-radius: 50px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: end;
-    align-items: end; } }
+    border: 2px solid black;
+    text-align: left;
+    background-image: url(../assets/redflanel.svg);
+    align-items: end;
+    padding: 10px;
+    width: 45%;
+    margin-left: 55%; } }
+@media only screen and (min-width: 1024px) {
+  .benefits {
+    border-radius: 50px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    border: 2px solid black;
+    text-align: left;
+    background-image: url(../assets/redflanel.svg);
+    align-items: end;
+    padding: 10px;
+    width: 45%;
+    margin-left: 55%; } }
 /* -------------------------------- 
 
 xParticipation
 
 -------------------------------- */
-@iclude MQ(S) {
+@media only screen and (min-width: 280px) {
   .participation {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     border: 2px solid black;
     text-align: left;
-    background-image: url "redflanel.svg";
-    padding: 10px; } }
+    background: rgba(255, 247, 231, 0.6);
+    align-items: center;
+    padding: 10px; }
+    .participation h3 {
+      width: 100%;
+      text-align: center; }
+      .participation h3:hover {
+        transition: all 1s ease;
+        transform: scale(1.2); } }
 @media only screen and (min-width: 768px) {
   .participation {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
     border: 2px solid black;
     text-align: left;
-    background-image: url "redflanel.svg";
-    padding: 10px; } }
+    background: rgba(255, 247, 231, 0.6);
+    padding: 10px;
+    width: 45%;
+    margin-right: 55%; } }
 @media only screen and (min-width: 1024px) {
   .participation {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: start;
     border: 2px solid black;
     text-align: left;
-    background-image: url "redflanel.svg";
-    padding: 10px; } }
+    background: rgba(255, 247, 231, 0.6);
+    padding: 10px;
+    width: 45%;
+    margin-right: 55%; } }
 @media only screen and (min-width: 280px) {
   .sidebar {
     height: auto;
@@ -247,11 +304,24 @@ a {
   color: rgba(238, 238, 238, 0.7); }
 
 .requirements {
+  border-radius: 50px;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  border: 2px solid black;
+  padding: 10px;
+  width: 75%;
+  margin: 12.5%;
   background-image: url(../assets/dinner-plate.jpg);
   background-repeat: no-repeat;
   background-position: center; }
   .requirements h3 {
+    width: 100%;
     text-align: center; }
+    .requirements h3:hover {
+      transition: all 1s ease;
+      transform: scale(1.2); }
 
 header {
   display: flex;

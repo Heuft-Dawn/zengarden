@@ -3,9 +3,9 @@
 xParticipation
 
 -------------------------------- */
-@iclude MQ(S) {
+@include MQ(S) {
 .participation{
- border-radius: 10%;
+  border-radius: 50px;;
   height:auto;
   display:flex;
   flex-flow:row wrap;
@@ -15,11 +15,21 @@ xParticipation
   background:rgba(255, 247, 231, 0.6);
   align-items:center;
   padding:10px;
+
+  h3 {
+    width: 100%;
+    text-align: center;
+
+    &:hover {
+      transition: all 1s ease;
+      transform: scale(1.2);
+    }
+  }
 }
 }
 @include MQ(M) {
 .participation{
- border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
@@ -34,7 +44,7 @@ xParticipation
 }
 @include MQ(L) {
 .participation{
- border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;

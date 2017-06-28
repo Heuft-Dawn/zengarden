@@ -5,7 +5,7 @@ xBenefits
 -------------------------------- */
 @include MQ(S) {
   .benefits {
-   border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
@@ -15,12 +15,22 @@ xBenefits
    background-image: url(../assets/redflanel.svg);
     align-items: center;
     padding: 10px;
+
+    h3 {
+      width: 100%;
+      text-align: center;
+
+      &:hover {
+        transition: all 1s ease;
+        transform: scale(1.2);
+      }
+    }
   }
 }
 
 @include MQ(M) {
   .benefits {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
@@ -36,7 +46,7 @@ xBenefits
 }
 @include MQ(L) {
   .benefits {
-    border-radius: 10%;
+    border-radius: 50px;
     height: auto;
     display: flex;
     flex-flow: row wrap;
