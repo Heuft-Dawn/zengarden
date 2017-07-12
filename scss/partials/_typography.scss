@@ -48,10 +48,10 @@ section > h2::before {
 p {
 	font-size: 1.4rem;
 	line-height: 1.4;
-	color: lighten($herb, 25%);
+	color: darken($herb, 25%);
 
 	a {
-		color: $terracotta;
+		color: darken($terracotta, 25%);
 		text-decoration: underline;
 	}
 
